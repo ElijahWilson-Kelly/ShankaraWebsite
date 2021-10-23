@@ -1,0 +1,117 @@
+body {
+	background-color: black;
+	font-family: Papyrus;
+	color: white;
+}
+
+header {
+	border: solid 1px;
+}
+
+
+h1 {
+	font-size: 100px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-family: Courier New;
+	margin: 20px 0px;
+	padding-top: 10px;
+	font-weight: lighter;
+}
+
+#photo {
+	background-image: url("./shankaralogo2.jpeg");
+	background-size: cover;
+	height: 450px;
+  width: 100%;
+	position: fixed;
+	z-index: -2;
+	border: ;
+}
+
+img.albumcover {
+  height: 500px;
+  width: 500px;
+  z-index: -2;
+	opacity: 0.7;
+	margin-top: 40px;
+	border-style: double;
+}
+
+img.background {
+  background-size: cover;
+  height: 100%;
+	position: fixed;
+  width: 100%;
+  z-index: -2;
+	opacity: 0.2;
+}
+
+.tracklist {
+	display:inline-block;
+	vertical-align: top;
+	margin-top: 50px;
+}
+
+.tracklist li {
+	margin-bottom: 40px;
+}
+
+.tracktime {
+	display: inline-block;
+	font-style: italic;
+	opacity: 0.7;
+}
+
+.navigation {
+	width: 100%;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	font-size: 25px;
+}
+
+.navigation li{
+	margin: 10px;
+  padding: 14px 8%;;
+}
+
+.dropdown:hover {
+	font-size: 35px;
+}
+
+.dropcontent{
+	position:absolute;
+	display:none;
+}
+
+li.dropdown {
+	display:inline-block;
+}
+
+.dropcontent a {
+	color: white;
+  padding: 10px 0px;
+	font-size: 20px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown:hover .dropcontent {
+  display: block;
+}
+
+.dropcontent a:hover {
+	color:red;
+}
+
+.gallery {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+	width: 80%;
+	height: 80%;
+	border-style: double;
+}
