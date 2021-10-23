@@ -5,7 +5,7 @@ body {
 }
 
 header {
-	border: solid 1px;
+
 }
 
 
@@ -14,10 +14,9 @@ h1 {
 	width: 100%;
 	text-align: center;
 	color: white;
-	font-family: Courier New;
 	margin: 20px 0px;
 	padding-top: 10px;
-	font-weight: lighter;
+	font-weight: 300;
 }
 
 #photo {
