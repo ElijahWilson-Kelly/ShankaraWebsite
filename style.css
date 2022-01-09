@@ -6,9 +6,9 @@ body {
 
 #heading {
 	display: block;
-	width: 80%;
+	width: 70%;
 	margin: 0 auto;
-	padding-top: 40px;
+	padding-top: 30px;
 	opacity: 0.8;
 }
 
@@ -16,7 +16,7 @@ body {
 	width: 100%;
 	text-align: center;
 	margin: 0px;
-	padding: 40px 0px;
+	padding: 20px 0px;
 }
 
 .navigation li{
@@ -45,7 +45,7 @@ body {
 	display: inline-block;
 }
 
-#albums {
+main {
 	width: 90%;
 	margin: 0 auto;
 	display: flex;
