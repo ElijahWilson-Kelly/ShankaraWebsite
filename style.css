@@ -4,19 +4,62 @@ body {
 	color: white;
 }
 
-header {
-
-}
-
-
 h1 {
-	font-size: 100px;
+	font-size: 6.5rem;
 	width: 100%;
 	text-align: center;
 	color: white;
-	margin: 20px 0px;
-	padding-top: 10px;
+	margin: 0;
+	padding-top: 60px;
 	font-weight: 300;
+}
+
+.navigation {
+	width: 100%;
+	text-align: center;
+	margin: 0px;
+	padding: 40px 0px;
+}
+
+.navigation li{
+	margin: 0px;
+  padding: 0px 4%;
+	font-size: 1rem;
+	display:inline-block;
+}
+
+.navigation a {
+	 color: white;
+	 text-decoration: none;
+	 cursor: pointer;
+}
+
+#socialmedia {
+	border: 1px white solid;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.socialmedialink {
+	border: 1px white solid;
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+}
+
+#albums {
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#albums img {
+	width: 32%;
+	height: auto;
+	margin: 1% 0;
+	border: double 1px white;
 }
 
 #photo {
@@ -29,82 +72,16 @@ h1 {
 	border: ;
 }
 
-
-img.albumcover {
-  height: 500px;
-  width: 500px;
-  z-index: -2;
-	opacity: 0.7;
-	margin-top: 40px;
-	border-style: double;
-}
-
 img.background {
   background-size: cover;
   height: 100%;
 	position: fixed;
   width: 100%;
   z-index: -2;
-	opacity: 0.2;
+	opacity: 0.4;
 }
 
-.tracklist {
-	display:inline-block;
-	vertical-align: top;
-	margin-top: 50px;
-}
 
-.tracklist li {
-	margin-bottom: 40px;
-}
-
-.tracktime {
-	display: inline-block;
-	font-style: italic;
-	opacity: 0.7;
-}
-
-.navigation {
-	width: 100%;
-	text-align: center;
-	margin: 0px;
-	padding: 0px;
-	font-size: 25px;
-}
-
-.navigation li{
-	margin: 10px;
-  padding: 14px 8%;;
-}
-
-.dropdown:hover {
-	font-size: 35px;
-}
-
-.dropcontent{
-	position:absolute;
-	display:none;
-}
-
-li.dropdown {
-	display:inline-block;
-}
-
-.dropcontent a {
-	color: white;
-  padding: 10px 0px;
-	font-size: 20px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-.dropdown:hover .dropcontent {
-  display: block;
-}
-
-.dropcontent a:hover {
-	color:red;
-}
 
 .gallery {
 	display: block;
