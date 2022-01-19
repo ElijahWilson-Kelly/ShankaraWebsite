@@ -111,22 +111,24 @@ nav img:hover {
 	display: flex;
 	justify-content: space-between;
 	height: 40px;
-
 }
 
 #socialmedialink a {
-	background-color: lightGrey;
+	background-color: white;
 	width: 40px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	border-radius: 3px;
+	border: 1px solid #DBBD5A;
+	opacity: 0.8;
 }
 
 #socialmedialink img {
 	width: auto;
-	height: 25px;
+	height: 70%;
 	box-sizing: border-box;
+	opacity: 1;
 }
 
 #socialmedialink a:hover {
@@ -322,6 +324,10 @@ img.albumcover {
 		position: static;
 	}
 
+	.nav-icon {
+		height: 30px;
+	}
+
 	.albumcover {
 		width: 90%;
 		margin: 20px auto;
@@ -329,6 +335,16 @@ img.albumcover {
 
 	.tracklist li {
 		margin-bottom: 20px;
+	}
+
+	#socialmedialink {
+		width: 180px;
+		margin: 10px auto 80px auto;
+		height: 30px;
+	}
+
+	#socialmedialink a {
+		width: 30px;
 	}
 
 
