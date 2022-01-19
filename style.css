@@ -138,6 +138,7 @@ nav img:hover {
 main {
 	width: 100%;
 	max-width: 1400px;
+	min-height: 520px;
 	margin: 0 auto;
 }
 
@@ -228,6 +229,7 @@ img.background {
 	width: 100%;
   height: auto;
 	position: fixed;
+	top: 0px;
   z-index: -2;
 	animation: fadebackground 8s 1 ease;
 	opacity: 0.4;
