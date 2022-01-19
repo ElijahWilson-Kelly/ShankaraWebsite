@@ -224,11 +224,11 @@ img.background {
 	opacity: 0.2;
 }
 
-#mainbackground {
+#homebackground {
 	background-size: cover;
 	width: 100%;
   height: auto;
-	position: fixed;
+	position: absolute;
 	top: 0px;
   z-index: -2;
 	animation: fadebackground 8s 1 ease;
@@ -238,6 +238,15 @@ img.background {
 @keyframes fadebackground {
   from {opacity: 0;}
   to {opacity: 0.4;}
+}
+
+#mainbackground {
+	background-size: cover;
+	width: 100%;
+  height: auto;
+	position: fixed;
+	top: 0px;
+  z-index: -2;
 }
 
 .gallery {
