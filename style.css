@@ -247,6 +247,7 @@ img.background {
 	position: fixed;
 	top: 0px;
   z-index: -2;
+	opacity: 0.4;
 }
 
 .gallery {
