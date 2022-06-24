@@ -16,17 +16,16 @@
 		</ul>
 	</nav>
 
-  <div id='maincontent'>
-    <nav id='navigation-list'>
-			<img src='images/socialmediaicons/navmenu.png' class='nav-icon' id='nav-button'>
-			<ul>
-				<a href='index.html'><li>Home</li></a>
-				<a href='music.html'><li>Music</li></a>
-				<a href='https://shankaranz.bandcamp.com/' target='_blank'><li>Music Store</li></a>
-				<a href='gallery.html'><li>Gallery</li></a>
-				<a href='contact.html'><li>Contact</li></a>
-			</ul>
-		</nav>
+  <nav id='navigation-list'>
+		<img src='images/socialmediaicons/navmenu.png' class='nav-icon' id='nav-button'>
+		<ul>
+			<a href='index.html'><li>Home</li></a>
+			<a href='music.html'><li>Music</li></a>
+			<a href='https://shankaranz.bandcamp.com/' target='_blank'><li>Music Store</li></a>
+			<a href='gallery.html'><li>Gallery</li></a>
+			<a href='contact.html'><li>Contact</li></a>
+		</ul>
+	</nav>
 
 		<img id='mainbackground' src="images/shankaralogo2.jpeg">
 
@@ -34,7 +33,22 @@
 			<a href='index.html'><img id='heading' src='./images/shankara-logo.png'></a>
 		</header>
 
-    <main>
+  <main>
+    <div id='double-border'>
+      <div id='gallery-display'>
+        <div id='gallery-previous' class='gallery-navigation'>
+          <img src='images/socialmediaicons/next-1.png' class='gallery-nav-icons'/>
+        </div>
+        <div id='photo-div'>
+
+        </div>
+        <div id='gallery-next' class='gallery-navigation'>
+          <img src='images/socialmediaicons/next-1.png' class='gallery-nav-icons'/>
+        </div>
+      </div>
+    </div>
+  </main>
+<!--    <main>
       <figure class='gallery' >
         <img src='images/1.jpg'>
         <figcaption>Massive Summer Solstice</figcaption>
@@ -81,7 +95,7 @@
       </figure>
 
     </main>
-
+-->
     <footer>
     	<div id='socialmedialink'>
     		<a href='https://www.facebook.com/ShankaraNewZealand' target='_blank'><img src='images/socialmediaicons/facebook.png'></a>
@@ -91,8 +105,7 @@
     		<a href='http://youtube.com/channel/UC4398ud5Nr8Gk90NJnZB8SA' target='_blank'><img src='images/socialmediaicons/youtube.png'></a>
     	</div>
     </footer>
-  </div>
 
-<script src='script.js'></script>
+<script src='gallery.js'></script>
 </body>
 </html>

@@ -36,7 +36,17 @@
 		</header>
 
 		<main>
-			<p>email address:</p>
+			<div id=form-border>
+				<form id='contact-form'>
+					<h3 class='form-label'>Name: </h3>
+					<input type='text' name='user-name' class='text' placeholder="Enter your name"/>
+					<h3 class='form-label'>Email: </h3>
+					<input type='text' name='user-email' placeholder="Enter your email"/>
+					<h3 class='form-label'>Message: </h3>
+					<textarea rows='5' placeholder="Enter your message" name='user-message'></textarea>
+					<input type='submit' id="submit"/>
+				</form>
+			</div>
 		</main>
 
 		<footer>
@@ -49,7 +59,7 @@
 			</div>
 		</footer>
 	</div>
-	
+
 <script src='script.js'></script>
 </body>
 </html>
