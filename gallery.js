@@ -1,9 +1,11 @@
 let photos = [];
 let index = 0;
 
+const slideShowSpeed = 100;
+
 photos.push({
   'caption': '',
-  'src': './images/1.jpg'
+  'src': './images/1-low-resolution.jpg'
 })
 
 photos.push({
@@ -19,11 +21,6 @@ photos.push({
 photos.push({
   'caption': '',
   'src': './images/4.jpeg'
-})
-
-photos.push({
-  'caption': '',
-  'src': './images/5.jpeg'
 })
 
 photos.push({
